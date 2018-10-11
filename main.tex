@@ -1,0 +1,198 @@
+\documentclass{article}
+\usepackage[latin1]{inputenc}
+\usepackage{enumitem}
+\setlength{\parindent}{0pt}
+
+\title{GLOSSARIO SWE}
+\author{Marco Favaro}
+\date{Anno accademico 2018-2019}
+
+
+\begin{document}
+ 
+\maketitle
+\centerline{Glossario dei termini valevole per l'anno accademico 2018-2019.}
+ 
+
+\newpage
+
+\textbf{Protocollo: }accordo preso tra due o pi\'u parti
+
+\bigbreak
+\textbf{Progetto: }
+    \begin{itemize}
+        \item insieme di attivit\'a e compiti che:
+        \begin{enumerate}
+            \item devono raggiungere determinati obbiettivi con specifiche fissate
+            \item ha delle date fissate
+            \item ha a disposizione limitate risorse
+            \item ha un consumo di risorse nello svolgimento
+        \end{enumerate}
+        
+        \item Pianificazione : gestione risorse e responsabilit\'a
+        \item Anilisi requisiti : cosa fare
+        \item Progettazione : cosa fare (design)
+        \item Realizzazione : fare ci\'o che serve perseguendo la \textbf{quantit\'a}
+            \textbf{verificando} che non abbia errori
+            \textbf{validando} i risultati rispetto le attese
+    \end{itemize}
+
+\bigbreak
+\textbf{Disappointmet: }qualcosa di non atteso/aspettato (esempio una torta al posto di una pizza)
+
+\bigbreak
+\textbf{Engineering: }applicazioni della scienza e della matematica di principi noti e autorevoli (\textbf{best practice}), che spesso sono civili e sociali (responsabilit\'a e tecniche e professionali)
+
+\bigbreak
+\textbf{Software engineering: }disciplina per realizzare prodotti sw cos\'i impegnativi da richiedere attivit\'a collaborative.
+Lungo l'intero ciclo di vita dello sviluppo \'e necessario:
+    \begin{itemize}
+        \item avere capacit\'a di produrre "in grande e in piccolo"
+        \item garantire \textbf{efficacia}
+        \item contenendo costi e risorse (\textbf{efficenza})
+    \end{itemize}
+
+\bigbreak
+\textbf{Efficacia: }capacit\'a di raggiungere l'obiettivo
+
+\bigbreak
+\textbf{Efficenza: }abilit\'a di raggiungere l'obiettivo impegnando le risorse minime indispensabili
+
+\bigbreak
+\textbf{Prodotto SW: }
+    \begin{itemize}
+        \item Commessa: "atto di comprare", eseguito dal committente.
+        \item Pacchetto: aggregato sw, serve per essere replicato (ce ne sono tanti identici).
+        \item Componente: fatto per essere aggiunto.
+        \item Servizio: outsourcing, assistenza dall'esterno.
+    \end{itemize}
+
+\bigbreak
+\textbf{Ciclo di vita: }tempo per tenere in "vita" un software 
+    \begin{itemize}
+        \item Start: lo penso.
+        \item Stop: lo ritiro dal mercato.
+    \end{itemize}
+    
+\bigbreak
+\textbf{Best Practice: } modo con cui affronto le attivit\'a del ciclo di vita. \'E data dalla conoscenza ed \'e il modo migliore di fare le cose.
+
+\bigbreak
+\textbf{Manutenzione: }
+    \begin{itemize}
+        \item Correttiva: correzione di bug (lo fa il produttore), e solitamente non la stessa persona che ha creato l'errore.
+        \item Adattiva: quando sono presenti cambiamenti importanti sulla realt\'a in cui \'e operativo il sistema.
+        \item Evolutiva: cambia il modo di fare le cose
+    \end{itemize}
+
+\bigbreak
+\textbf{Body of knowledge: }raccogliere, organizzare, e consolidare la conoscenza.
+
+\bigbreak
+\textbf{Approccio sistematico: }modo metodico e rigoroso di lavorare che usa e studia le best practice.
+
+\bigbreak
+\textbf{Approccio disciplinato: }segue le regole.
+
+\bigbreak
+\textbf{Approccio quantificabile: }ci\'o che facciamo deve essere soggetto a una misura, per determinare l'efficenza del lavoro svolto.
+
+\bigbreak
+\textbf{Zero-latency: }metodo di studio "ci lavoro subito".
+
+\bigbreak
+\textbf{Zero-laxity: }metodo di studio "ci lavoro alla fine" (vicino alla scadenza).
+
+\bigbreak
+\textbf{Progetto} formato da tre strati principali:
+    \begin{itemize}
+        \item Customer: qualcuno che ha bisogno diuna cosa
+            \begin{itemize}
+                \item Oppurtunity: bisogno che vale la pena soddisfare.
+                \item Stakeholder: quelli che giudicano la tua soluzione all'opportunit\'a.
+            \end{itemize}
+        \item Solution: derivare dall'opportunity i bisogni
+            \begin{itemize}
+                \item Requirements: requisiti.
+                \item Software system: la soluzione che soddisfa l'opportunity.
+            \end{itemize}
+        \item Endeavor: sforzo importante per la realizzazione (attivit\'a svolta in team)
+            \begin{itemize}
+                \item Work: le cose che devo fare.
+                \item Team: svolge work.
+            \end{itemize}
+    \end{itemize}
+\textbf{WAY OF WORKING: }basamento del metodo di lavoro del team == best practice
+
+\newpage
+
+\textbf{PROCESSI SOFTWARE}
+\bigbreak
+Il software \'e buono se \textbf{dura}.
+\bigbreak
+Ci\'o che \'e sotto manutenzione ha una storia:
+    \begin{itemize}
+        \item Memoria di ci\'o che funzionava o ha funzionato $\rightarrow$ \textbf{versionamento}.
+    \end{itemize}
+\textbf{Prodotto software: }insieme di parti separate
+    \begin{itemize}
+        \item Come le parti stanno insieme $\rightarrow$ \textbf{configurazione}.
+        \item Controllo di configurazione: gestisce le parti.
+    \end{itemize}
+
+\bigbreak
+\textbf{Processi di ciclo di vita:} specifica delle \textbf{attivit\'a} da svolgere per abilitare corrette transazioni nel ciclo di vita.
+
+\bigbreak
+\textbf{Ciclo di vita:} conoscere il ciclo di vita previsto aiuta a calcolare costi e tempi di sviluppo.
+    \begin{itemize}
+        \item \textbf{Macchina a stati:} descrive un algoritmo, 
+        "racconta" in modo non ambiguo come le cose avvengono. L'avanzamento degli stati sancisce le attivit\'a svolte e la maturazione del SW.
+    \end{itemize}
+    
+\textbf{Modelli di ciclo di vita:} diversi per le transazioni previste tra gli stati
+    \begin{itemize}
+        \item \underline{ITERAZIONE:} \'e un ciclo, faccio pi\'u volte la stessa cosa. (Non posso capire a che punto sono del ciclo).
+        \item \underline{INCREMENTO:} tengo ci\'o che ho e aggiungo ci\'o che manca. (Ho una traccaibilit\'a della situazione attuale).
+        \item \underline{RIUSO:} 
+            \begin{itemize}
+                \item Occasionale: copia-incolla $\rightarrow$ basso costo (opportunistico).
+                \item Sistematico: per progetto $\rightarrow$ maggior costo.
+            \end{itemize}
+        \item \underline{PROTOTIPO:} bozza del progetto finale.
+    \end{itemize}
+    
+\bigbreak
+\textbf{PROCESSO: }insieme di attivit\'a \underline{correlate} e \underline{coese} che trasformano ingressi in uscite sotto determinate regole cosnsumando risorse.
+    \begin{itemize}
+        \item correlate: stesso contesto.
+        \item coese: non manca niente, tutto \'e importante.
+    \end{itemize}
+
+\bigbreak
+\textbf{Economicit\'a:} \'e datto dalla somma dell'EFFICACIA e dell'EFFICIENZA. 
+    \begin{itemize}
+        \item misura dell'efficenza \'e la produttivit\'a.
+        \item misura dell'efficacia sono gli obiettivi soddisfatti.
+    \end{itemize}
+
+\newpage
+\textbf{ISO/IEC 12207: }standard dei cicli di vita.\newline Processi:
+    \begin{itemize}
+        \item primary.
+        \item supporting.
+        \item organisational.
+    \end{itemize}
+    
+\bigbreak
+\textbf{Com'\'e fatto il processo? }
+    \begin{itemize}
+        \item Processo vero e proprio.
+        \item Attivit\'a: cose che voglio fare per attivare il processo.
+        \item Tasks: cose che devo fae per raggiungere gli obiettivi.
+    \end{itemize}
+    
+\bigbreak
+\textbf{Standard: }si usano come corpo iniziale e si adattano al processo da svolgere.
+
+\end{document}
